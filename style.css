@@ -1,0 +1,294 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav-style{
+    display: flex;
+    justify-content: space-around;
+    background-color: #241e1d;
+    top: 0;
+    z-index: 10;
+    position: sticky;
+    border-bottom: 1px solid #e0ae3a;
+}
+
+#logo{
+    width: 8rem;
+}
+
+
+.links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+.links a{
+    color: white;
+    font-weight: 450;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: #e0ae3a;
+}
+
+.sec-3{
+    margin-top: 1.8rem;
+}
+
+.gitlink{
+    text-decoration: none;
+    gap: 2rem;
+    font-size: 2rem;
+    color: #e0ae3a;
+    background-color: none;
+    border: .1rem solid #e0ae3a;
+    padding: .3rem 2rem .6rem 2rem;
+    border-radius: 5rem;
+}
+
+.sec-3:hover{
+    margin-top: 1.5rem;   
+}
+
+.sec-3:active{
+    margin-top: 1.8rem;
+}
+
+
+.hamburger-box{
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    gap: 1rem;
+    margin-left: auto;
+    flex-direction: column;
+    margin-top: -5rem;
+    opacity: 0;
+}
+
+.hamburger-box div{
+    height: .5rem;
+    width: 90%;
+    background-color: #e0ae3a;
+    /* transition: .5s ease; */
+}
+
+.hamburger-box.active div:first-child{
+    margin-top: 1.5rem;
+    transform: rotate(40deg);
+}
+
+.hamburger-box.active div:nth-child(2){
+    margin-top: -1.5rem;
+    transform: rotate(-40deg);
+}
+
+.hamburger-box.active div:nth-child(3){
+   opacity: 0;
+}
+
+
+.abt{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    gap: 10%;
+    background-color: #241e1d;
+    color: white;
+}
+
+.abt-s1{
+    width: 35%;
+    margin-left: 10%;
+}
+
+
+.abt-s1 h1{
+    font-size: 5.5rem;
+}
+
+.abt-s1 h2{
+    font-size: 3.5rem;
+}
+
+.abt-s1 h2 span{
+    color: #e0ae3a;
+}
+
+.abt-s1 p{
+    margin-top: 1rem;
+    font-size: 2.2rem;
+    color: #ffdc8b;
+}
+
+.abt-s1 a{
+    text-decoration: none;
+    font-size: 2.2rem;
+    padding: 1rem 3rem;
+    border: 2px solid #e0ae3a;
+    color: #e0ae3a;
+    border-radius: 5rem;
+}
+
+
+.abt-s2{
+   width: 35%;
+}
+
+.abt-s2 #my-img{
+    border: 2px solid #e0ae3a;
+    margin-left: 5%;
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+
+/* 
+@media (max-width: 282px){
+    .abt-s2{
+        padding-bottom: 1rem;
+    }
+    .abt-s2 #my-img{
+        width: 15rem !important;
+        height: 15rem !important;
+    }
+}
+
+@media (max-width: 335px){
+    .abt-s2{
+        padding-bottom: 2rem;
+    }
+    .abt-s2 #my-img{
+        width: 20rem !important;
+        height: 20rem !important;
+    }
+}
+
+@media (max-width: 462px){
+    .abt-s2 #my-img{
+        width: 26rem;
+        height: 26rem;
+    }
+} */
+
+
+
+@media (max-width: 590px) {
+    html{
+        font-size: 48%;
+    }
+    .nav-style{
+        flex-direction: column;
+    }
+
+    .sec-3{
+        margin-bottom: 1rem;
+    }
+
+    .links{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sec-3{
+        display: none;
+    }
+
+    .sec-3.active{
+        display: flex;
+        justify-content: center;
+        margin-left: 2rem;
+    }
+
+    .hamburger-box{
+        opacity: 1;
+    }
+    .links{
+        display: none;
+    }
+
+    .links.active{
+        display: flex;
+    }
+    .abt{
+        flex-direction: column-reverse;
+    }
+    .abt-s1{
+        width: 90%;
+        height: 55vh;
+        margin-right: 8%;
+    }
+    .abt-s2{
+        margin-top: 10%;
+        width: 90%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 710px) {
+    html{
+        font-size: 50%;
+    }   
+    .abt-s1 h1{
+        font-size: 4.8rem !important;
+    }
+    
+    .abt-s1 h2{
+        font-size: 3.3rem !important;
+    }
+    
+    .abt-s1 p{
+        font-size: 2rem !important;
+    }
+    
+    .abt-s1 a{
+        font-size: 2rem !important;
+    }
+}
+
+@media (max-width: 966px){
+    .abt-s1 h1{
+        font-size: 5.2rem;
+    }
+    
+    .abt-s1 h2{
+        font-size: 3.2rem;
+    }
+    
+    .abt-s1 p{
+        font-size: 1.9rem;
+    }
+    
+    .abt-s1 a{
+        font-size: 1.9rem;
+        padding: .7rem 2rem;
+    }
+    .abt-s2 #my-img{
+        width: 26rem;
+        height: 26rem;
+    }
+}
+
+@media (min-width: 1367px){
+    html{
+        font-size: 75%;
+    }
+}
