@@ -102,11 +102,10 @@ html{
 .abt{
     display: flex;
     align-items: center;
-    /* height: 100vh; */
-    padding: 10rem 0;
     gap: 10%;
     background-color: #241e1d;
     color: white;
+    padding: 10rem 0;
 }
 
 .abt-s1{
@@ -233,9 +232,15 @@ html{
 
 
 
-@media (min-width: 360px){
+@media (max-width: 360px){
     .abt{
-        padding: 3rem 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 375px){
+    .abt{
+        padding: 0;
     }
 }
 
@@ -254,6 +259,12 @@ html{
     }
     .sub-cont{
         min-height: 20vh !important;
+    }
+}
+
+@media (max-width: 540px){
+    .abt{
+        padding: 0;
     }
 }
 
