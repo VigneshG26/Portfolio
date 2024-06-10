@@ -81,7 +81,6 @@ html{
     height: .5rem;
     width: 90%;
     background-color: #e0ae3a;
-    /* transition: .5s ease; */
 }
 
 .hamburger-box.active div:first-child{
