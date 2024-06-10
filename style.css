@@ -115,11 +115,11 @@ html{
 
 
 .abt-s1 h1{
-    font-size: 5.5rem;
+    font-size: 5.3rem;
 }
 
 .abt-s1 h2{
-    font-size: 3.5rem;
+    font-size: 3.3rem;
 }
 
 .abt-s1 h2 span{
@@ -128,13 +128,13 @@ html{
 
 .abt-s1 p{
     margin-top: 1rem;
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: #ffdc8b;
 }
 
 .abt-s1 a{
     text-decoration: none;
-    font-size: 2.2rem;
+    font-size: 2rem;
     padding: 1rem 3rem;
     border: 2px solid #e0ae3a;
     color: #e0ae3a;
@@ -158,35 +158,16 @@ html{
 
 
 
-/* 
-@media (max-width: 282px){
-    .abt-s2{
-        padding-bottom: 1rem;
+@media (max-width: 381px){
+    .abt{
+        height: 100vh;
     }
     .abt-s2 #my-img{
-        width: 15rem !important;
-        height: 15rem !important;
+        margin-top: 4.5rem;
+        width: 23rem !important;
+        height: 23rem !important;
     }
 }
-
-@media (max-width: 335px){
-    .abt-s2{
-        padding-bottom: 2rem;
-    }
-    .abt-s2 #my-img{
-        width: 20rem !important;
-        height: 20rem !important;
-    }
-}
-
-@media (max-width: 462px){
-    .abt-s2 #my-img{
-        width: 26rem;
-        height: 26rem;
-    }
-} */
-
-
 
 @media (max-width: 590px) {
     html{
@@ -240,6 +221,9 @@ html{
         height: 30vh;
         display: flex;
         justify-content: center;
+    }
+    .abt-s2 #my-img{
+        margin-top: 5rem;
     }
 }
 
