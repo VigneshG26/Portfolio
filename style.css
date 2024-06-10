@@ -194,6 +194,7 @@ html{
     border: .2rem solid #e0ae3a;
     border-radius: 2rem;
     position: relative;
+    box-shadow: 0 0 .5rem #e0ae3a, 0 0 .5rem #e0ae3a;
 }
 
 .cont{
