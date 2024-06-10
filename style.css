@@ -102,7 +102,8 @@ html{
 .abt{
     display: flex;
     align-items: center;
-    height: 90vh;
+    /* height: 100vh; */
+    padding: 10rem 0;
     gap: 10%;
     background-color: #241e1d;
     color: white;
@@ -160,8 +161,9 @@ html{
 }
 
 #skill-sec{
-    height: 90vh;
+    padding: 0 0 10rem 0;
     background-color: #241e1d;
+
 }
 
 .center{
@@ -170,7 +172,7 @@ html{
 }
 
 .center h1{
-    font-size: 5rem;
+    font-size: 4.8rem;
 }
 
 .center p{
@@ -186,8 +188,8 @@ html{
 }
 
 .sub-cont{
-    width: 32%;
-    min-height: 55vh;
+    width: 38%;
+    min-height: 52vh;
     text-align: center;
     border: .2rem solid #e0ae3a;
     border-radius: 2rem;
@@ -209,7 +211,6 @@ html{
 
 .skill-list{
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     flex-wrap: wrap;
     gap: 5%;
@@ -231,17 +232,14 @@ html{
 
 
 
-
-
-
-
-
+@media (min-width: 360px){
+    .abt{
+        padding: 3rem 0;
+    }
+}
 
 
 @media (max-width: 381px){
-    .abt{
-        height: 100vh;
-    }
     .abt-s2 #my-img{
         margin-top: 4.5rem;
         width: 23rem !important;
@@ -298,10 +296,10 @@ html{
     }
     .abt{
         flex-direction: column-reverse;
+        padding-bottom: 8rem;
     }
     .abt-s1{
         width: 90%;
-        height: 55vh;
         margin-right: 8%;
     }
     .abt-s2{
@@ -320,7 +318,7 @@ html{
         gap: 5rem;
     }
     .sub-cont{
-        min-height: 30vh;
+        min-height: 30%;
         width: 80%;
     }
 
@@ -378,37 +376,18 @@ html{
         gap: 5rem;
     }
     .sub-cont{
-        min-height: 20vh;
+        min-height: 16vh;
         width: 70%;
     }
 }
 
+@media (max-width: 1024px){
+    .sub-cont{
+        min-height: 17vh;
+        max-height: 50vh;
+    }
+}
 
-
-/* @media (max-width:1034px){
-
-    .sub-cont h2{
-        color: #ffdc8b;
-        font-size: 2.8rem;
-    }
-    
-    .skill-list{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 5%;
-    }
-    
-    .skill-list span{
-        font-size: 1.8rem;
-        padding: .6rem 1.5rem;
-        margin: .3rem;
-    }
-    .cont{
-        gap: 5%;
-    }
-} */
 
 @media (min-width: 1367px){
     html{
