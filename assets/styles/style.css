@@ -187,7 +187,7 @@ html{
 
 .sub-cont{
     width: 38%;
-    min-height: 52vh;
+    min-height: 48vh;
     text-align: center;
     border: .2rem solid #e0ae3a;
     border-radius: 2rem;
@@ -363,6 +363,12 @@ html{
     }
 }
 
+@media (max-width: 912px){
+    .sub-cont{
+        min-height: 10vh !important;
+    }
+}
+
 
 @media (max-width: 966px){
     
@@ -405,6 +411,9 @@ html{
     }
     .skill-list span{
         font-size: 1.4rem;
+    }
+    .sub-cont h2{
+        font-size: 1.8rem;
     }
 
 }
