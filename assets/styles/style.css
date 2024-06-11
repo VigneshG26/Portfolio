@@ -265,6 +265,10 @@ html{
     .abt{
         padding: 0;
     }
+    .gitlink{
+        font-size: 1.5rem;
+        padding: .2rem 1rem .5rem 1rem;
+    }
 }
 
 @media (max-width: 590px) {
@@ -306,8 +310,10 @@ html{
         display: flex;
     }
     .abt{
+        padding: 0;
         flex-direction: column-reverse;
         padding-bottom: 8rem;
+        gap: 8rem;
     }
     .abt-s1{
         width: 90%;
@@ -398,6 +404,7 @@ html{
         max-height: 50vh;
     }
 }
+
 
 
 @media (min-width: 1367px){
