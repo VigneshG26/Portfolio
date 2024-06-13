@@ -34,7 +34,7 @@ html{
 
 .links a{
     color: white;
-    font-weight: 450;
+    font-weight: 500;
     text-decoration: none;
 }
 
@@ -192,6 +192,9 @@ html{
     border: .2rem solid #e0ae3a;
     border-radius: 2rem;
     position: relative;
+}
+
+.sub-cont:hover{
     box-shadow: 0 0 .5rem #e0ae3a, 0 0 .5rem #e0ae3a;
 }
 
@@ -414,7 +417,7 @@ html{
     }
 
     .vision-cont{
-        width: 80% !important;
+        width: 70% !important;
     }
 
     .vision-cont h2{
@@ -491,6 +494,7 @@ html{
     .sub-cont{
         min-height: 17vh;
         max-height: 100vh;
+        padding: 2rem;
     }
     .skill-list span{
         font-size: 1.4rem;
@@ -499,14 +503,14 @@ html{
         font-size: 1.8rem;
     }
     .vision-cont{
-        width: 80% !important; 
+        width: 70% !important; 
     }
 
 }
 
 @media (max-width: 1280px){
     .vision-cont{
-        width: 60%;
+        width: 70%;
     }
 }
 
