@@ -6,3 +6,4 @@ function toggleMenu() {
     hamburger.classList.toggle('active');
     sec3.classList.toggle('active');
 }
+
