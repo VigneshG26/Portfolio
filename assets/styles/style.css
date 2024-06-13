@@ -16,7 +16,7 @@ html{
     top: 0;
     z-index: 10;
     position: sticky;
-    border-bottom: 1px solid #e0ae3a;
+    border-bottom: 2px solid #e0ae3a;
 }
 
 #logo{
@@ -278,7 +278,7 @@ html{
     color: #ffdc8b;
     text-align: justify;
     text-indent: 6rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .vision-cont .more{
