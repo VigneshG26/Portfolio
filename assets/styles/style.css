@@ -486,11 +486,15 @@ html{
     .sub-cont h2{
         font-size: 1.8rem;
     }
+    .vision-cont{
+        width: 80%;
+    }
+
 }
 
 @media (max-width: 1280px){
     .vision-cont{
-        width: 80%;
+        width: 60%;
     }
 }
 
