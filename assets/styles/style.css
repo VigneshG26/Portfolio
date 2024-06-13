@@ -229,6 +229,68 @@ html{
     width: 2.2rem;
 }
 
+#vision{
+    background-color: #241e1d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+#vision h1{
+    color: white;
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.vision-cont{
+    width: 50%;
+    border: 2px solid #e0ae3a;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 2rem;
+}
+
+.vision-cont:last-child{
+    margin-bottom: 2rem;
+}
+
+.vision-cont h2{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.vision-cont h3{
+    color: #e0ae3a;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.vision-cont p{
+    font-size: 1.8rem;
+    color: #ffdc8b;
+    text-align: justify;
+}
+
+.vision-cont span{
+    display: none;
+    transition: 2s ease-in-out;
+}
+
+.vision-cont:hover{
+    box-shadow: 0 0 .5rem #e0ae3a, 0 0 .5rem #e0ae3a;
+}
+
+.vision-cont:hover span{
+    display: inline;
+}
+
+
+
+
+
+
 
 
 @media (max-width: 360px){
@@ -339,6 +401,14 @@ html{
         width: 80%;
     }
 
+    .vision-cont{
+        width: 80%;
+    }
+
+    .vision-cont h2{
+        font-size: 2.2rem;
+    }
+
 }
 
 
@@ -367,6 +437,7 @@ html{
     .sub-cont{
         min-height: 10vh !important;
     }
+
 }
 
 
@@ -415,7 +486,12 @@ html{
     .sub-cont h2{
         font-size: 1.8rem;
     }
+}
 
+@media (max-width: 1280px){
+    .vision-cont{
+        width: 80%;
+    }
 }
 
 
