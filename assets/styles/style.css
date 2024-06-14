@@ -323,10 +323,12 @@ html{
     background-color: #241e1d;
     border: 2px solid #e0ae3a;
     border-radius: 2rem;
-    font-size: 2rem;
     padding: 2rem;
-    color: white;
     transition: .5s all;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .projects-main-container .card:hover{
@@ -334,20 +336,53 @@ html{
     box-shadow: 0 0 10px #e0ae3a, 0 0 10px #e0ae3a;
 }
 
-
-/* .projects-main-container{
-    display: flex;
-    justify-content: center;
-    gap: 2%;
-    flex-wrap: wrap;
+.card img{
+    border-radius: 1rem;
+    height: 25vh;
 }
 
-.projects-main-container .card{
-    padding: 1rem;
-    border: 2px solid #e0ae3a;
-    width: 30%;
-    flex-wrap: wrap;
-} */
+.proj-lang{
+    list-style: none;
+    font-size: 1.4rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.proj-lang span{
+    padding: 0rem 1rem;
+    border: 1px solid #e0ae3a;
+    border-radius: 1rem;
+    color: white;
+}
+
+.proj-desc{
+    color: #ffdc8b;
+    font-size: 2rem;
+}
+
+.imp-desc{
+    color: white;
+}
+
+.proj-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.proj-links a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #e0ae3a;
+    border: 1.5px solid #e0ae3a;
+    padding: .4rem 1.5rem;
+    border-radius: 5rem;
+}
+
+.proj-links a:hover{
+    background-color: #e0ae3a;
+    color: white;
+}
+
 
 
 
@@ -468,7 +503,7 @@ html{
     }
 
     .projects-main-container{
-        grid-template-columns: repeat(1, 70%);
+        grid-template-columns: repeat(1, 70%) !important;
     }
 
 }
@@ -534,6 +569,12 @@ html{
     .sub-cont{
         min-height: 16vh;
         width: 70%;
+    }
+}
+
+@media (max-width: 981px){
+    .projects-main-container{
+        grid-template-columns: repeat(2, 32%);
     }
 }
 
