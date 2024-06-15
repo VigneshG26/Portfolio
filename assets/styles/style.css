@@ -202,6 +202,7 @@ html{
     justify-content: center;
     flex-wrap: wrap;
     gap: 5%;
+    padding: 1rem;
 }
 
 
@@ -394,7 +395,47 @@ html{
     margin-bottom: 5rem;
 }
 
+#findme{
+    /* padding-top: 5rem; */
+    padding: 5rem;
+    background-color: #241e1d;
+}
 
+#findme h3{
+    font-size: 2.3rem;
+    color: white;
+    text-align: center;
+}
+
+.footer-links{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #ffdc8b;
+}
+
+.footer-links a:hover{
+    color: #e0ae3a;
+}
+
+.footer-icons{
+    width: 3.3rem;
+}
+
+#findme p{
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
 
 
 @media (max-width: 360px){
