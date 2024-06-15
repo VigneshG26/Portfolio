@@ -398,6 +398,9 @@ html{
     width: 55%;
 }
 
+.edu-cont:last-child{
+    margin-bottom: 5rem;
+}
 
 
 
