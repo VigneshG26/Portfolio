@@ -286,6 +286,8 @@ html{
 
 .vision-cont:hover, .edu-cont:hover{
     box-shadow: 0 0 .5rem #e0ae3a, 0 0 .5rem #e0ae3a;
+    transform: translateY(-.5rem);
+    transition: .5s all;
 }
 
 .vision-cont:hover .more, .edu-cont:hover .more{
@@ -380,6 +382,10 @@ html{
     color: white;
 }
 
+#education{
+    padding-top: 5rem;
+}
+
 .edu-head, .vision-head, .proj-head, .skill-head{
     width: 55%;
 }
@@ -413,9 +419,10 @@ html{
 }
 
 @media (min-width: 382px) and (max-width: 430px){
-    .abt{
+    /* .abt{
         height: 80vh;
-    }
+        
+    } */
     .sub-cont{
         min-height: 20vh !important;
     }
@@ -480,7 +487,7 @@ html{
         margin-right: 8%;
     }
     .abt-s2{
-        margin-top: 10%;
+        margin-top: 5%;
         width: 90%;
         height: 30vh;
         display: flex;
