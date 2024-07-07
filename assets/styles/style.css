@@ -134,10 +134,15 @@ html{
 .abt-s1 a{
     text-decoration: none;
     font-size: 2rem;
-    padding: 1rem 3rem;
+    padding: .8rem 2.5rem 1.2rem 2.5rem;
     border: 2px solid #e0ae3a;
     color: #e0ae3a;
     border-radius: 5rem;
+}
+
+.abt-s1 a:hover{
+    color: white;
+    background-color: #e0ae3a;
 }
 
 
@@ -373,7 +378,7 @@ html{
     font-size: 1.6rem;
     color: #e0ae3a;
     border: 1.5px solid #e0ae3a;
-    padding: .5rem;
+    padding: .5rem 1rem;
     border-radius: 1.4rem;
 }
 
